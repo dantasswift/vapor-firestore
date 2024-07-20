@@ -8,8 +8,8 @@ let package = Package(
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
-        .package(url: "https://github.com/vapor/jwt.git", from: "3.0.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.102.1"),
+        .package(url: "https://github.com/vapor/jwt.git", from: "4.2.2"),
         .package(url: "https://github.com/Quick/Nimble.git", from: "8.0.0")
     ],
     targets: [
